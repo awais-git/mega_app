@@ -1,0 +1,30 @@
+image: mingc/android-build-box:latest
+pipelines:
+    branches:
+        develop:
+           - step:
+               name: Deploy to DEVELOP
+               deployment: Test
+               services:
+                   - docker
+               caches:
+                   - gradle
+                   - gradle-wrapper
+                   - android-emulator
+               script:
+                   - echo "Building APK..."
+                   - pwd
+                   - ls ~/
+                   - ls
+                   - cd android
+                   - ls
+                   - bash ./gradlew assemble
+                #    - whoami
+                #    - ls $ANDROID_HOME/system-images/
+                #    - flutter doctor
+                #    - flutter build apk --release
+                #    - bash ./gradlew assemble
+definitions:
+    caches:
+        gradle-wrapper: ~/.gradle/wrapper
+        android-emulator: $ANDROID_HOME/system-images/android-30

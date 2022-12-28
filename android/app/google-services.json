@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "64762038808",
+    "firebase_url": "https://mega-delivery-prod.firebaseio.com",
+    "project_id": "mega-delivery-prod",
+    "storage_bucket": "mega-delivery-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64762038808:android:c39d7908bcbdd1f8cad16d",
+        "android_client_info": {
+          "package_name": "online.megadelivery.pedidos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64762038808-54odah6dol3b9h9f57p8olrtjfgvg378.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX5Qczqvk4XJ8mVScC0k0pDY9MoQkGka4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64762038808-54odah6dol3b9h9f57p8olrtjfgvg378.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

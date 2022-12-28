@@ -124,3 +124,7 @@ flutter:
   # see https://flutter.dev/custom-assets/fonts/#from-packages
 flutter_intl:
   enabled: true
+
+
+
+#just for the testing
